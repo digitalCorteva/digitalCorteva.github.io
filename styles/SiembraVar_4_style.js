@@ -1,6 +1,6 @@
 var size = 0;
 var placement = 'point';
-function categories_SiembraVariable_4(feature, value, size, resolution, labelText,
+function categories_SiembraVar_4(feature, value, size, resolution, labelText,
                        labelFont, labelFill, bufferColor, bufferWidth,
                        placement) {
                 switch(value.toString()) {case '100000':
@@ -28,7 +28,7 @@ case '115000':
     })];
                     break;}};
 
-var style_SiembraVariable_4 = function(feature, resolution){
+var style_SiembraVar_4 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
@@ -48,7 +48,7 @@ var style_SiembraVariable_4 = function(feature, resolution){
         labelText = String("");
     }
     
-var style = categories_SiembraVariable_4(feature, value, size, resolution, labelText,
+var style = categories_SiembraVar_4(feature, value, size, resolution, labelText,
                           labelFont, labelFill, bufferColor,
                           bufferWidth, placement);
 
