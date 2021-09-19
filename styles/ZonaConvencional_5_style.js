@@ -1,7 +1,7 @@
 var size = 0;
 var placement = 'point';
 
-var style_ZonaConvencional_3 = function(feature, resolution){
+var style_ZonaConvencional_5 = function(feature, resolution){
     var context = {
         feature: feature,
         variables: {}
