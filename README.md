@@ -1,1 +1,0 @@
-# digitalCorteva.github.io
